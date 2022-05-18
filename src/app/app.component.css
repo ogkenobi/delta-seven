@@ -1,0 +1,92 @@
+/* .container {
+    font-family: "Pixelmania", "VideoTerminal", Arial, Helvetica, sans-serif;
+} */
+
+@media (max-width: 900px) {
+  :host {
+    display: block;
+    padding: 0 20px;
+  }
+}
+
+.logo {
+    text-align: center;
+    /* padding-right: 3rem; */
+    padding-right: 56px;
+    position: relative;
+}
+
+pre {
+  transform: scale(.75) translate(-30px, 0);
+}
+
+.all-services {
+    /* border: 1px solid red;
+    padding: 10px; */
+}
+
+.services {
+    border: 3px solid black;
+    /* padding-top: 0rem; */
+    /* padding-left: 1rem; */
+    padding-left: 16px;
+    width: 100%;
+    max-width: 460px;
+    margin: 0 auto;
+    font-family:monospace;
+    font-size: 15px;
+
+}
+
+.services ul li{
+    list-style-type: square;
+    
+}
+
+.service-title {
+    font-family: "Pixelmania";
+    /* font-size: .8rem; */
+    font-size: 14px;
+    /* padding-top: 1rem; */
+    padding-top: 14px;
+}
+
+.price {
+    font-family: "VideoTerminal";
+    /* font-size: 1.2rem; */
+    font-size: 18px;
+    text-align: right;
+    /* padding-right: 1rem;
+    padding-bottom: 1rem; */
+    padding-right: 16px;
+    padding-bottom: 8px;
+
+}
+
+.credentials {
+    background-color: black;
+    color: white;
+    padding-left: 16px;
+    padding-bottom: 4px;
+    width: 100%;
+    max-width: 460px;
+    margin: 0 auto;
+    font-family:monospace;
+    font-size: 15px;
+    
+}
+
+.credentials ul li{
+    list-style-type: square;
+}
+
+.credentials-title {
+    font-family: "Pixelmania";
+    font-size: 14px;
+    padding-top: 14px;
+}
+
+.contact {
+    text-align: center;
+    font-family: monospace;
+}

@@ -1,0 +1,9 @@
+.container {
+    font-family: "Pixelmania", "VideoTerminal", Arial, Helvetica, sans-serif;
+}
+
+
+.price-ticker {
+    font-family: monospace;
+    text-align: center;
+}
