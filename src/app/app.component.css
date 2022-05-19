@@ -11,12 +11,19 @@
 
 .logo {
     text-align: center;
-    position: relative;
+    /* position: relative; */
+    width: 100%;
+    max-width: 460px;
+    margin: 0 auto;
+    font-family:monospace;
+    font-size: 15px;
+    
+
 }
 
-pre {
+/* pre {
   transform: scale(.75) translate(-30px, 0);
-}
+} */
 
 .all-services {
     /* border: 1px solid red;
